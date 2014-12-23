@@ -1,6 +1,11 @@
 /*! jCarousel - v0.3.1 - 2014-05-26
 * http://sorgalla.com/jcarousel
 * Copyright (c) 2014 Jan Sorgalla; Licensed MIT */
+
+define([
+    "jquery"
+], function(jQuery){
+
 (function($) {
     'use strict';
 
@@ -1413,3 +1418,5 @@
         }
     });
 }(jQuery));
+
+});
